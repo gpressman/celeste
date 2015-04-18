@@ -1,8 +1,6 @@
 class CreateMenus < ActiveRecord::Migration
   def change
     create_table :menus do |t|
-      t.string :meal
-      t.integer :dish_id
 
       t.timestamps null: false
     end
